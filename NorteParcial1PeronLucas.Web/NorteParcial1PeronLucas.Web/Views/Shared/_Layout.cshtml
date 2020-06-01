@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - UAI</title>
+    <link href="~/Content/site.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img class="logo" src="~/Content/img/logo.gif" alt="logo"/>    
+            <nav>
+                @*<ul>
+                <li><a href="/">Principal</a> </li>
+                <li><a href="/Home/Contact">Contacto</a> </li>
+                <li><a href="/Home/Info">Info js</a> </li>
+                <li>@Html.ActionLink("Admin Producto", "Producto", "Home")</li>
+
+            </ul>*@
+            </nav>
+        </header>
+        <section>
+            <article>
+                @RenderBody()
+            </article>
+        </section>
+
+        <aside id="pub">
+            <article>
+                <div>
+                    <h3>Contenido relacionado</h3>
+                </div>
+            </article>
+        </aside>
+        <footer>
+            <p>&copy; ¿Hay vida en otro planeta?- @DateTime.Now.Year </p>
+        </footer>
+    </div>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,90 @@
+﻿﻿ /*IMPORTANTE - No modificar estos estilos, ya que son imprescindibles para que la pagina se vea correctamente.*/
+/*https://developer.mozilla.org/es/docs/Web/CSS/overflow*/
+/*elementos basicos*/
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+
+p {
+    text-align: justify;
+}
+
+/*maqueta - layout*/
+
+/*#container {
+    width: auto;
+    margin: 0 auto;
+}*/
+
+header {
+    display: block;
+    background-color: #286af0;
+    padding: 10px 0px;
+}
+
+/*menu horizontal*/
+
+
+.logo {
+    width: 150px;
+    height: 40px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+section {
+    background-color: #ccc;
+    padding: 5px;
+    width: 80%;
+    height: auto;
+    float: left;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    background-color: #FFFFFF;
+}
+
+footer {
+    position: relative;
+    float: none;
+    clear: both;
+    background-color: #6793ec;
+    height: 40px;
+    padding: 5px 0;
+}
+
+    footer p {
+        color: #fff;
+        text-align: center;
+    }
+
+span {
+    color: #060;
+}
+
+strong {
+    font-size: 20px;
+}

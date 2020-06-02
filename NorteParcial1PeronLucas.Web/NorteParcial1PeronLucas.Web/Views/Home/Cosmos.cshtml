@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Cosmos";
+}
+
+<h2>Cosmos</h2>
+
+<input id="siglo" type="text" />
+<input id="nombre" type="text" />
+
+<input id="listar" type="button" value="Listar" />
+<input id="agregar" type="button" value="Agregar" />
+
+@section scripts {
+    function conste() {
+    this.setSiglo = function (value) { this._siglo = value; }
+    this.getSiglo = function () { return this._siglo; }
+
+    this.setNombre = function (value) { this._nombre = value; }
+    this.getNombre = function () { return this._nombre; }
+    }
+}

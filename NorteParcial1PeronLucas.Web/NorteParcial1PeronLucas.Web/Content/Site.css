@@ -17,7 +17,6 @@ img {
     width: 50%;
 }
 
-
 .center {
     display: block;
     margin-left: auto;
@@ -32,46 +31,46 @@ p {
 
 /*maqueta - layout*/
 
-/*#container {
+#container {
     width: auto;
     margin: 0 auto;
-}*/
+}
 
 header {
-    display: block;
     background-color: #286af0;
-    padding: 10px 0px;
+    margin 10px;
+    /*padding: 10px 0px;*/
 }
 
 /*menu horizontal*/
 
 
-.logo {
+/*.logo {
     width: 150px;
     height: 40px;
     margin-left: 5px;
     margin-bottom: 5px;
-}
+}*/
 
 section {
     background-color: #ccc;
-    padding: 5px;
+    /*padding: 5px;*/
     width: 80%;
-    height: auto;
-    float: left;
+    /*height: auto;*/
+    float: right;
 }
 
 aside {
-    float: right;
+    float: left;
     width: 20%;
-    background-color: #FFFFFF;
+    text-align: center;
 }
 
 footer {
     position: relative;
     float: none;
     clear: both;
-    background-color: #6793ec;
+    background-color: #286af0;
     height: 40px;
     padding: 5px 0;
 }
@@ -81,10 +80,4 @@ footer {
         text-align: center;
     }
 
-span {
-    color: #060;
-}
 
-strong {
-    font-size: 20px;
-}

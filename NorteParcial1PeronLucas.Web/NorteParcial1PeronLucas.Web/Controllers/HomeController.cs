@@ -13,5 +13,10 @@ namespace NorteParcial1PeronLucas.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult Cosmos()
+        {
+            return View();
+        }
     }
 }
